@@ -1,0 +1,12 @@
+<header class="sticky-header">
+    <div class="container">
+        <div class="logo">Your Logo</div>
+        <div class="user-info">
+            <span>Hi, {{userName}}</span>
+            <button class="btn-logout" (click)="logout()">Logout</button>
+        </div>
+    </div>
+</header>
+<main>
+    <router-outlet></router-outlet>
+</main>

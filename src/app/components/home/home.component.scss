@@ -1,0 +1,42 @@
+.sticky-header {
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+    position: sticky;
+    top: 0;
+    z-index: 1000; // Ensure it's above other content
+
+    .container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        max-width: 1200px;
+        margin: 0 auto;
+
+        .logo {
+            font-size: 24px;
+            font-weight: bold;
+        }
+
+        .user-info {
+            display: flex;
+            align-items: center;
+
+            span {
+                margin-right: 10px;
+            }
+
+            .btn-logout {
+                padding: 5px 10px;
+                background-color: transparent;
+                border: none;
+                color: white;
+                cursor: pointer;
+
+                &:hover {
+                    background-color: rgba(255, 255, 255, 0.2);
+                }
+            }
+        }
+    }
+}

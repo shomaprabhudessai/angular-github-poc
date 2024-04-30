@@ -1,0 +1,25 @@
+.container {
+    height: 100vh;
+}
+.login-block {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    height: 100%;
+    /* align-items: center; */
+    flex-wrap: wrap;
+    button {
+        min-width: 200px;
+        background-color: #000;
+        font-size: 17px;
+        border: none;
+        color: #fff;
+        padding: 8px 12px;
+        border-radius: 3px;
+        cursor: pointer;
+        &:focus, &:hover {
+            border: none;
+
+        }
+    }
+}
